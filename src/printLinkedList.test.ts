@@ -1,5 +1,5 @@
-import {exampleHead, printLinkedList} from './printLinkedList'
+import { exampleHead, printLinkedList } from "./printLinkedList";
 
-test('test runs', () => {
+test("test runs", () => {
   expect(printLinkedList(exampleHead)).toBe(undefined);
 });
