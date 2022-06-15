@@ -17,5 +17,3 @@ export function printLinkedList(head: LLNode | null):void{
 		current = current.next
 	}
 }
-
-printLinkedList(exampleHead)
